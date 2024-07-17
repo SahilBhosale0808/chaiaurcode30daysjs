@@ -8,13 +8,13 @@ console.log(assignedNumber);
 
 // • Task 2: Declare a variable using let, assign it a string, and log the value to the console.
 
-let assignedString = `Hell Yes JS!!`
+let assignedString = `Hell Yes JS!!`;
 console.log(assignedString);
 
 // Activity 2: Constant Declaration
 // • Task 3: Declare a variable using const, assign it a boolean value, and log the value to the console.
 
-const assignedBoolean = true
+const assignedBoolean = true;
 console.log(assignedBoolean);
 
 // Activity 3: Data Types
@@ -33,18 +33,18 @@ let data = [
   { value: objectVar, type: typeof objectVar },
   { value: arrayVar, type: typeof arrayVar },
 ];
-console.table(data, ['Value', 'Type']);
+console.table(data, ["Value", "Type"]);
 
 // Activity 4: Reassigning Variables
 // • Task 5: Declare a variable using let, assign it an initial value, reassign a new value, and log both values to the console.
 
-let captainName = 'Virat'
-captainName = 'Rohit'
+let captainName = "Virat";
+captainName = "Rohit";
 console.log(captainName);
 
 // Activity 5: Understanding const
 // • Task 6: Try reassigning a variable declared with const and observe the error.
-const bestBowler = 'Bumrah'
+const bestBowler = "Bumrah";
 // bestBowler = 'Shaheen'
 console.log(bestBowler);
 // Attempting to reassign a constant will result in a TypeError. Uncomment the line above to see the error.
@@ -57,7 +57,7 @@ let stringVar = "This is a string";
 let booleanVar = true;
 let objectVar = {
   name: "Surya",
-  jerseyNumber: 63
+  jerseyNumber: 63,
 };
 let arrayVar = [1, "DeGea", true];
 
@@ -67,15 +67,14 @@ console.log("Boolean:", booleanVar, typeof booleanVar);
 console.log("Object:", objectVar, typeof objectVar);
 console.log("Array:", arrayVar, typeof arrayVar);
 
-
 // 2. Reassignment Demo: Create a script that demonstrates the difference in behavior between let and const when it comes to reassignment.
 
 let bestIndianBatsman = "Sachin";
 // Reassign a new value to the same variable
-bestIndianBatsman = "Virat";  // This is allowed with let
+bestIndianBatsman = "Virat"; // This is allowed with let
 console.log("After reassignment with let:", bestIndianBatsman);
 
-const bestCoverDrive = 'Virat';
+const bestCoverDrive = "Virat";
 // Try to reassign a new value to the constant
 // bestCoverDrive = 'Babar';  // This will cause an error
 
