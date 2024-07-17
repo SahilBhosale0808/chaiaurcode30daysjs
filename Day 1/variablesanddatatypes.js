@@ -74,9 +74,9 @@ let bestIndianBatsman = "Sachin";
 bestIndianBatsman = "Virat"; // This is allowed with let
 console.log("After reassignment with let:", bestIndianBatsman);
 
-const bestCoverDrive = "Virat";
+const bestCoverDrive = "Virat Kohli";
 // Try to reassign a new value to the constant
-// bestCoverDrive = 'Babar';  // This will cause an error
+// bestCoverDrive = 'Babar Azam';  // This will cause an error
 
 console.log("Constant value (cannot be reassigned):", bestCoverDrive);
 // Attempting to reassign a constant will result in a TypeError. Uncomment the line above to see the error.
