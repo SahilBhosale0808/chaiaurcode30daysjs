@@ -20,7 +20,6 @@ console.log(assignedBoolean);
 // Activity 3: Data Types
 // • Task 4: Create variables of different data types (number, string, boolean, object, array) and log each variable's type using the typeof operator.
 
-
 let numberVariable = 13;
 let stringVariable = "Hello, JS world!";
 let booleanVariable = true;
@@ -32,7 +31,6 @@ console.log("String:", stringVariable, typeof stringVariable);
 console.log("Boolean:", booleanVariable, typeof booleanVariable);
 console.log("Object:", objectVariable, typeof objectVariable);
 console.log("Array:", arrayVariable, typeof arrayVariable);
-
 
 // Activity 4: Reassigning Variables
 // • Task 5: Declare a variable using let, assign it an initial value, reassign a new value, and log both values to the console.
@@ -74,7 +72,6 @@ bestIndianBatsman = "Virat"; // This is allowed with let
 console.log("After reassignment with let:", bestIndianBatsman);
 
 const bestCoverDrive = "Virat Kohli";
-// Try to reassign a new value to the constant
 // bestCoverDrive = 'Babar Azam';  // This will cause an error
 
 console.log("Constant value (cannot be reassigned):", bestCoverDrive);
