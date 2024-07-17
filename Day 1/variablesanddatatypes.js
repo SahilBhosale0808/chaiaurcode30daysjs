@@ -20,20 +20,19 @@ console.log(assignedBoolean);
 // Activity 3: Data Types
 // • Task 4: Create variables of different data types (number, string, boolean, object, array) and log each variable's type using the typeof operator.
 
+
 let numberVariable = 13;
 let stringVariable = "Hello, JS world!";
 let booleanVariable = true;
 let objectVariable = { name: "Sahil", age: 22 };
 let arrayVariable = [1, 2, 3, 4, 5];
 
-let data = [
-  { value: numberVar, type: typeof numberVar },
-  { value: stringVar, type: typeof stringVar },
-  { value: booleanVar, type: typeof booleanVar },
-  { value: objectVar, type: typeof objectVar },
-  { value: arrayVar, type: typeof arrayVar },
-];
-console.table(data, ["Value", "Type"]);
+console.log("Number:", numberVariable, typeof numberVariable);
+console.log("String:", stringVariable, typeof stringVariable);
+console.log("Boolean:", booleanVariable, typeof booleanVariable);
+console.log("Object:", objectVariable, typeof objectVariable);
+console.log("Array:", arrayVariable, typeof arrayVariable);
+
 
 // Activity 4: Reassigning Variables
 // • Task 5: Declare a variable using let, assign it an initial value, reassign a new value, and log both values to the console.
